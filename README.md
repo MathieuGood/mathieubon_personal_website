@@ -3,3 +3,5 @@
 
 
 This is my personal website that I built to introduce myself and present my portfolio.
+
+Here is the Figma link to the sketch I created for this purpose : https://www.figma.com/file/3q4szptCapSPu0BurHX4uL/Mathieu-Bon-website?node-id=0%3A1&mode=dev
