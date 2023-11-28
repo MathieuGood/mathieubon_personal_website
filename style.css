@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Colors variables */
+:root {
+    --mathieu-yellow: #FFC300;
+    --mathieu-white: #F1F1EB;
+}
+
+.top-navbar {
+    font-family: 'Fira Code', monospace;
+    height: 80px;
+    /* text-transform: uppercase; */
+
+}
+
+.top-banner {
+    font-family: 'Fira Code', monospace;
+    font-size: 2em;
+    font-weight: 600;
+    background-color: var(--mathieu-yellow);
+    height: 250px;
+}
+
+.bottom-banner {
+    color: white;
+
+}
+
+.section {
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-family: 'Fira Code', monospace;
+    font-weight: 600;
+
+}
+
+
+
+.section-subtitle {
+    padding-bottom: 1em;
+}
+
+.almost-white-bg {
+    background-color: var(--mathieu-white);
+}
+
+.tech-stack {
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: var(--mathieu-yellow);
+
+
+}
+
+img.tech-img {
+    height: 80px;
+    min-width: 100%;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+img.computer-screen {
+    position: relative;
+    width: 400px;
+    height: auto;
+
+}
+
+img.project-screenshot {
+    position: relative;
+    /* Dimension of screenshot on Figma : */
+    /* 684 x 387 */
+    width: auto;
+    height: 210px;
+    top: -41px;
+    left: -390px;
+}
+
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+img.avatar {
+    width: 100%;
+    height: 100%;
+}
+
+.button-yellow {
+    background-color: var(--mathieu-yellow);
+    border: 1px solid black;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    font-size: 1.2em;
+
+}
+
+img.logo {
+    width: 35px;
+    height: auto;
+}
+
+hr {
+    padding-bottom: 1.5em;
+    width: 80px;
+    border-top: 3px solid black;
+
+}
