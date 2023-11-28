@@ -3,7 +3,8 @@
 /* Colors variables */
 :root {
     --mathieu-yellow: #FFC300;
-    --mathieu-white: #F1F1EB;
+    --mathieu-light: #F1F1EB;
+    --mathieu-dark: #343a40;
 }
 
 .top-navbar {
@@ -15,20 +16,26 @@
 
 .top-banner {
     font-family: 'Fira Code', monospace;
-    font-size: 2em;
+    /* font-size: 2em; */
     font-weight: 600;
     background-color: var(--mathieu-yellow);
     height: 250px;
+    padding: 0.5em;
 }
 
 .bottom-banner {
-    color: white;
+    background-color: var(--mathieu-dark);
+    font-family: 'Fira Code', monospace;
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--mathieu-light);
+    height: 150px;
 
 }
 
 .section {
-    padding-top: 3em;
-    padding-bottom: 2em;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 
 .section-title {
@@ -44,8 +51,8 @@
     font-weight: 600;
 }
 
-.almost-white-bg {
-    background-color: var(--mathieu-white);
+.light-bg {
+    background-color: var(--mathieu-light);
 }
 
 .tech-stack {
@@ -61,9 +68,6 @@ img.tech-img {
     min-width: 100%;
 }
 
-.white-bg {
-    background-color: white;
-}
 
 img.computer-screen {
     position: relative;
@@ -111,5 +115,13 @@ hr {
     width: 80px;
     border-top: 5px solid var(--mathieu-yellow);
     margin: auto;
+}
 
+.navbar-collapse {
+    background-color: rgba(43, 48, 53, 0.95);
+}
+
+.nav-link {
+    color: var(--mathieu-light);
+    padding-left: 1em;
 }
