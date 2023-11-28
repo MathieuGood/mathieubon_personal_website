@@ -16,7 +16,7 @@
 
 <body>
 
-    <div class="container-fluid">
+    <header>
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary top-navbar" data-bs-theme="dark">
 
@@ -30,7 +30,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarNav">
 
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav justify-content-end ms-auto">
                         <li class="nav-item">
                             <a class="nav-link " href="#">About</a>
                         </li>
@@ -47,7 +47,7 @@
 
         </nav>
 
-    </div>
+    </header>
 
 
 
@@ -57,13 +57,13 @@
 
             <div class="row">
 
-                <div class="col col-md-8 text-center">
+                <div class="col col-md-8 d-flex justify-content-center align-items-center">
                     Hello, my name is Mathieu.<br>
                     I am a back-end engineer.
                 </div>
 
                 <div class="col col-md-4">
-                    <img class="avatar" src="media/avatar-working-on-computer.png">
+                    <img class="avatar img-fluid" src="media/avatar-working-on-computer.png">
                 </div>
 
             </div>
@@ -87,7 +87,7 @@
 
             <div class="row">
 
-                <div class="col-md-7">
+                <div class="col-md-7 px-4">
 
                     <h5 class="section-subtitle">Get to know me!</h5>
 
@@ -162,16 +162,16 @@
 
 
 
-                <div class="col-md-7 project-view">
+                <div class="col-md-6 px-4 project-view">
 
-                    <img src="media/imac-screen.svg" alt="Computer screen" class="computer-screen">
+                    <img src="media/imac-screen.svg" alt="Computer screen" class=" img-fluid">
 
                     <img src="media/screenshot-animal-breeding-management.png"
                         alt="Animal Breeding Management screenshot" class="project-screenshot">
 
                 </div>
 
-                <div class="col-md-5 project-text">
+                <div class="col-md-6 px-4 project-text">
                     <h5 class="section-subtitle">Animal Breeding Management</h5>
 
                     <p>Web application used to manage an Animal Breeding.</p>
@@ -191,7 +191,7 @@
 
             <div class="row project2">
 
-                <div class="col-md-4 project-text">
+                <div class="col-md-6 px-4 project-text">
 
                     <h5 class="section-subtitle">Switchbot Temperature logger</h5>
 
@@ -206,7 +206,7 @@
 
                 </div>
 
-                <div class="col-md-8 project-view">
+                <div class="col-md-6 px-4 project-view">
 
                     <img src="media/imac-screen.svg" alt="Computer screen" class="computer-screen">
 
@@ -227,7 +227,9 @@
 
             <div class="row">
                 <h4 class="section-title text-center">Contact</h4>
-                    <hr>    
+                <div class="border-dark">
+                    <hr>
+                  </div>
             </div>
 
             <div class="row">
@@ -237,11 +239,11 @@
 
             <div class="row">
 
-                <div class="col-md-7">
+                <div class="col-md-7 px-4">
                     <p>Feel free to browse my GitHub repositories and have a look at my different projects.</p>
                 </div>
 
-                <div class="col-md-5">
+                <div class="col-md-5 px-4">
                     <button type="button" class="btn button-yellow" href="#">
                         GitHub
                         <img alt="GitHub" src="media/logo-github.svg" class="logo">
@@ -253,11 +255,11 @@
 
             <div class="row">
 
-                <div class="col-md-7">
+                <div class="col-md-7 px-4">
                     <p>For more informations about my academic background and professional experience, please visit my LinkedIn profile.</p>
                 </div>
 
-                <div class="col-md-5">
+                <div class="col-md-5 px-4">
                     <button type="button" class="btn button-yellow" href="#">
                         LinkedIn
                         <img src="media/logo-linkedin.svg" alt="LinkedIn" class="logo">
@@ -269,11 +271,11 @@
 
             <div class="row">
 
-                <div class="col-md-7">
+                <div class="col-md-7 px-4">
                     <p>Shoot me an e-mail to bon.mathieu@gmail.com if you would like to get in touch.</p>
                 </div>
 
-                <div class="col-md-5">
+                <div class="col-md-5 px-4">
                     <button type="button" class="btn button-yellow" href="#">
                         E-mail
                         <img src="media/logo-email.svg" alt="E-mail" class="logo">
@@ -291,6 +293,7 @@
     </div>
 
     <footer>
+        <div class="container"></div>
 
     </footer>
 </body>
